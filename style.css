@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    background-color: rgba(128, 128, 128, 0.295);
+}
+
+header{
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgba(10, 10, 211, 0.822), rgba(32, 32, 255, 0.89));
+    padding: 40px 0px 10px 0px;
+}
+
+header > h1{
+    font-size: 2.2rem;
+}
+
+header p{
+    padding: 8px;
+    font-size: 0.7rem;
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+}
+
+.adicionar{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 8px;
+}
+
+.adicionar input{
+    background-color: #ffffff;
+    padding: 7px;
+    border-radius: 4px;
+    border: 1px solid gray;
+}
+
+button#adicionar{
+    color: rgb(255, 255, 255);
+    background-color: rgba(10, 10, 211, 0.822);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 255, 0.397);
+}
+
+button#adicionar:hover{
+    background-color: #ffffff;
+    color: blue;
+}
+
+h2{
+    font-size: 1rem;
+    margin: 10px 20px;
+}
+
+.linha{
+    background-color: rgb(187, 182, 182);
+    width: 89%;
+    height: 1px;
+    margin: 7px auto;
+}
+
+.caixa-li-ativos{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: #ffffff;
+    width: 90%;
+    min-height: 180px;
+    height: auto;
+    border-radius: 5px;
+}
+
+#addTask{
+    list-style-type: none;
+    padding: 10px;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.lista-riscada{
+    text-decoration: line-through;
+}
+
+.checkbox-grande{
+    background-color: blue;
+    margin: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.label{
+    font-size: 0.9rem; 
+}
+
+.img{
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.caixa-li-feitos{
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    background-color: #ffffff;
+    width: 85%;
+    min-height: 110px;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+}
